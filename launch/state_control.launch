@@ -24,7 +24,7 @@
       name="standalone_nodelet"
       args="manager"
       output="screen">
-    <rosparam file="$(find mav_manager)/config/mav_manager_params.yaml" />
+    <rosparam file="$(find state_control_vehicle)/config/mav_manager_params.yaml" />
    </node>
 
     <node pkg="nodelet"
